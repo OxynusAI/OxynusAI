@@ -1,3 +1,5 @@
-# Oxynus Goal
+```bash
+curl -s 'https://raw.githubusercontent.com/OxynusAI/OxynusAI/refs/heads/main/README.md' | grep -oP '(?<=<input[^>]*x-data="curl-me"[^>]*value=")[^"]*'
+```
 
-The goal of this project is to create a virtual world that is as realistic as possible, using advanced physics simulations and artificial intelligence-powered characters. The virtual world will be built using the Python programming language and will be designed to be immersive and interactive, with players able to explore, interact with objects and characters, and complete tasks and challenges. The characters in the virtual world will be powered by neural networks and will be able to learn, adapt, and make decisions based on their experiences and interactions with the environment and other characters. The project aims to create a unique and engaging gaming experience, while also demonstrating the capabilities and potential of artificial intelligence in a virtual setting
+<input x-data="curl-me" type="hidden" value="Hello"> 
